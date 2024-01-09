@@ -1,6 +1,6 @@
 # pwd (Print Working Directory)
 
-Tudo em Linux é arquivo, você entenderá isso ao longo da jornada pelo prompt. Todo arquivo é organizado em um estrutura de diretórios hierarquica. O primeiro diretório no filesystem é chamado de root (não confunda com o usuário). O diretório root tem muito diretórios e arquivos. Abaixo uma exemplo de como é uma árvore de diretórios:
+Tudo no Linux é considerado um arquivo, e você entenderá isso ao longo da jornada no prompt de comando. Cada arquivo é organizado em uma estrutura de diretórios hierárquica. O primeiro diretório no sistema de arquivos é denominado 'root' (não confunda com o usuário). O diretório root contém muitos outros diretórios e arquivos. Abaixo, segue um exemplo de como é uma árvore de diretórios
 
 <pre>/
 |-- bin
@@ -15,9 +15,9 @@ Tudo em Linux é arquivo, você entenderá isso ao longo da jornada pelo prompt.
 |-- var
 </pre>
 
-A Localização desses arquivos é referênciada pelos paths. Por exemplo, podemos ter uma pasta documentos dentro do diretório home do usuário bruno, ficando assim: /home/bruno/documentos.
+A localização desses arquivos é referenciada pelos caminhos (paths). Por exemplo, podemos ter uma pasta chamada 'documentos' dentro do diretório home do usuário Bruno, ficando assim: /home/bruno/documentos.
 
-Durante a navegação é interessante saber onde você se encontra, e para isso temos o comando *pwd*
+Durante a navegação, é importante saber onde você está, e para isso, utilizamos o comando *pwd*.
 
 <pre>$ pwd</pre>
 
