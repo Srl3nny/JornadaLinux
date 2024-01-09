@@ -4,16 +4,20 @@ Tudo em Linux é arquivo, você entenderá isso ao longo da jornada pelo prompt.
 
 <pre>/
 |-- bin
-|   |-- file1
-|   |-- file2
+|   |-- arq1
+|   |-- arq2
 |-- etc
-|   |-- file3
-|   `-- directory1
-|       |-- file4
-|       `-- file5
+|   |-- arq3
+|   `-- dir1
+|       |-- arq4
+|       `-- arq5
 |-- home
 |-- var
 </pre>
 
 A Localização desses arquivos é referênciada pelos paths. Por exemplo, podemos ter uma pasta documentos dentro do diretório home do usuário bruno, ficando assim: /home/bruno/documentos.
+
+Durante a navegação é interessante saber onde você se encontra, e para isso temos o comando *pwd*
+
+<pre>$ pwd</pre>
 
